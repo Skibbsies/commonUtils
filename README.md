@@ -9,7 +9,7 @@ Until this uploaded to PyPi, this library will have to be present in the same di
 
 Library files can be imported as such:
 
-```
+```py
 import commonUtils
 
 TEXT = commonUtils.ft('text', 'bold')
@@ -17,7 +17,7 @@ TEXT = commonUtils.ft('text', 'bold')
 
 Or:
 
-```
+```py
 from commonUtils import TextFormatting
 
 TEXT - TextFormatting.ft('text', 'bold')
@@ -29,7 +29,7 @@ TEXT - TextFormatting.ft('text', 'bold')
 Allows for prompts and explicit data type conversion.
 Takes `text` and `mode` as arguments.
 
-```
+```py
 import commonUtils as CU
 from CU import GetInput
 
@@ -44,7 +44,7 @@ Returns a string of `USER_INPUT`, explicitly converted to a string.
 Allows for quick text formatting into different colours for CLI applications.
 Takes `text`, `formatType` and `printText` as arguments.
 
-```
+```py
 import commonUtils as CU
 from CU import TextFormatting
 
