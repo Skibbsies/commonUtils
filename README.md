@@ -36,7 +36,7 @@ from CU import GetInput
 USER_INPUT = GetInput.gi(text = 'Prompting text?', mode = str)
 print(USER_INPUT)
 ```
-Returns a string of `USER_INPUT`, explicitly converted to a string.
+Returns a string of `USER_INPUT`.
 
 
 # TextFormatting
