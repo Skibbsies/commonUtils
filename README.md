@@ -5,7 +5,7 @@ A collection of python libraries to help with user input, amongst other utilitie
 
 # Importing information
 
-Until this uploaded to PyPi, this library will have to be present in the same directory as your python projects.
+Until this uploaded to PyPi, please see Python's [importing documentation](https://docs.python.org/3/reference/import.html), or search for "Python relative imports", when handling organising directories and libraries.
 
 Library files can be imported as such:
 
